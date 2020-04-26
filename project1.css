@@ -1,0 +1,44 @@
+body {
+    background: url("img/keks-background.jpg") no-repeat 50% 0;
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.choice p {
+    display: inline-block;
+    color: rgb(253, 125, 6);
+    background: #99d7db; 
+    line-height: 1px; 
+    padding: 5%;
+    
+}
+
+.imgblock {
+    position: relative;
+    display: inline-block;
+}
+
+
+.imgblock span {
+    color: rgb(238, 18, 18);
+    position: absolute;
+    left: 0;
+    bottom: 85px;
+    font-size: 20px;
+    padding: 10%;
+}
+
+.imgblock p {
+    position: absolute; 
+    bottom: 30px;
+    font-size: 25px;
+    padding: 3%;
+}
+
+.center-img {
+    display: block;
+    margin: 0 auto;
+}
