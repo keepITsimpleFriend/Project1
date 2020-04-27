@@ -1,6 +1,7 @@
 body {
     background: url("img/keks-background.jpg") no-repeat 50% 0;
     font-size: 25px;
+    padding: 10px;
 }
 
 h1 {
@@ -41,4 +42,8 @@ h1 {
 .center-img {
     display: block;
     margin: 0 auto;
+}
+
+.button {
+    background: cadetblue;
 }
