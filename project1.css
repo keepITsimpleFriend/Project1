@@ -34,6 +34,7 @@ figcaption {
     text-align: center;
     text-decoration: blink; /* не работает, устарело */
     text-decoration: overline;
+    padding-top: 5px;
 }
 
 figcaption:hover {
@@ -51,7 +52,7 @@ figcaption:hover {
 }
 
 .blok {
-    margin: 0 auto;
+    margin: 30px;
     visibility: hidden;
     border : 5px dotted orange;
     width : 120px;
@@ -117,15 +118,21 @@ table {
     border: 1px solid blue;
     border-collapse: separate;
     background-color: rgb(142, 88, 196);
+    padding: 0 20px;
+    display: inline-table;
 
 }
 
 th, td {
-    border: 1px solid blue;
+    border: 2px solid rgb(189, 206, 39);
     border-collapse: collapse;
     background-color: cornsilk;
-    text-align: center;
-    
+    text-align: center;  
+}
+
+.rlt {
+    float: right;
+
 }
 
 .center-img {
